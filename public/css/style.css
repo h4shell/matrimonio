@@ -52,6 +52,10 @@
     color: #523E25;
 }
 
+.super{
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
 @media(min-width: 768px) {
     .wrapper{
         width: min(600px, 100% - 2rem);
