@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fuggles&family=Great+Vibes&display=swap');
+
+#leftbg{
+    background: url('/public/images/left.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#rightbg{
+    background: url('/public/images/right.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.fuggles{
+    font-family: "Fuggles", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cormorant-garamond-700 {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: .05rem;
+}
+
+.great-vibes {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.color1{
+    color: #B48B58;
+}
+  
+.color2{
+    color: #523E25;
+}
+
+@media(min-width: 768px) {
+    .wrapper{
+        width: min(800px, 100% - 2rem);
+        margin-inline: auto;
+    }
+}
