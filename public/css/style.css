@@ -54,7 +54,7 @@
 
 @media(min-width: 768px) {
     .wrapper{
-        width: min(800px, 100% - 2rem);
+        width: min(600px, 100% - 2rem);
         margin-inline: auto;
     }
 }
