@@ -66,6 +66,11 @@
     grid-template-columns: 2fr 1fr 2fr;
 }
 
+button{
+    opacity: 0.5!important;
+    cursor: not-allowed;
+}
+
 @media(min-width: 768px) {
     .wrapper{
         width: min(600px, 100% - 2rem);
