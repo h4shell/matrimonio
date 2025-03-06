@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fuggles&family=Great+Vibes&display=swap');
 
 #leftbg{
-    background: url('/public/images/left.png');
+    background: url('/matrimonio/public/images/left.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
@@ -13,7 +13,7 @@
 }
 
 #rightbg{
-    background: url('/public/images/right.png');
+    background: url('/matrimonio/public/images/right.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
