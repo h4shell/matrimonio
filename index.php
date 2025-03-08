@@ -22,7 +22,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="public/css/style.css" />
-    <title>Document</title>
+    <title>Partecipazione Online di Matrimonio Lorenzo Ginevra</title>
+<meta name="description" content="Ginevra e Lorenzo hanno il piacere di invitarvi al loro matrimonio" />
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Partecipazione Online di Matrimonio Lorenzo Ginevra" />
+<meta itemprop="description" content="Ginevra e Lorenzo hanno il piacere di invitarvi al loro matrimonio" />
+<meta itemprop="image" content="https://www.bloglavalnerina.it/wp-content/uploads/2020/10/matrimonio-3.jpg" />
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://matrimonio.bordighera.site/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Partecipazione Online di Matrimonio Lorenzo Ginevra" />
+<meta property="og:description" content="Ginevra e Lorenzo hanno il piacere di invitarvi al loro matrimonio" />
+<meta property="og:image" content="https://www.bloglavalnerina.it/wp-content/uploads/2020/10/matrimonio-3.jpg" />
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Partecipazione Online di Matrimonio Lorenzo Ginevra" />
+<meta name="twitter:description" content="Ginevra e Lorenzo hanno il piacere di invitarvi al loro matrimonio" />
+<meta name="twitter:image" content="https://www.bloglavalnerina.it/wp-content/uploads/2020/10/matrimonio-3.jpg" />
   </head>
   <body>
     <div id="leftbg"></div>
