@@ -1,3 +1,20 @@
+<?php
+      require 'Database.php';
+      $csvManager = new CsvManager('lista.csv');
+      if (isset($_GET['name'])) {
+        $nome = $_GET['name'];
+        $res = $csvManager->recordExists($nome);
+        if ($res) {
+            header("Location: voted.html");
+            exit();
+        }
+  
+    } else {
+        header("Location: voted.html");
+        exit();
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,6 +34,13 @@
       <p class="text-center mt-16 cormorant-garamond-700 text-2xl color2">
         hanno il piacere<br />di invitarvi al loro matrimonio
       </p>
+      <p
+        class="text-center mt-16 cormorant-garamond-700 text-2xl color2"
+        id="name"
+      >
+      
+    
+    </p>
       <p class="text-center mt-12 cormorant-garamond-700 text-2xl color2">
         MAGGIO
       </p>
@@ -46,16 +70,67 @@
       </p>
       <div class="container-button grid gap-4 place-items-center my-12">
         <button
+          id="done"
           class="uppercase color2 cormorant-garamond-700 text-2xl py-2 border-2 border-[#B48B58] w-[80%] cursor-pointer"
         >
           parteciperò
         </button>
         <button
+          id="decline"
           class="uppercase color2 cormorant-garamond-700 text-2xl py-2 border-2 border-[#B48B58] w-[80%] cursor-pointer"
         >
           non parteciperò
         </button>
       </div>
     </div>
+    <script>
+      const btnDone = document.getElementById("done");
+      const btnDecline = document.getElementById("decline");
+      function extractParams(url) {
+        const urlObj = new URL(url);
+        const params = new URLSearchParams(urlObj.search);
+        const paramsObject = {};
+        params.forEach((value, key) => {
+          paramsObject[key] = value;
+        });
+        return paramsObject;
+      }
+
+      btnDone.addEventListener("click", async () => {
+        try {
+          const res = await fetch(
+            `/handler.php?name=${params.name}&accept=true`
+          );
+          if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+          }
+          const data = await res.text();
+
+          window.location.href = "thank.html";
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
+      });
+
+      btnDecline.addEventListener("click", async () => {
+        try {
+          const res = await fetch(
+            `/handler.php?name=${params.name}&accept=false`
+          );
+          if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+          }
+          const data = await res.text();
+          window.location.href = "sorry.html";
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
+      });
+
+      const params = extractParams(window.location.href);
+      const name = document.getElementById("name");
+      name.innerHTML = "A " + params.name;
+      console.log(params);
+    </script>
   </body>
 </html>

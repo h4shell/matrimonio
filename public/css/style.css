@@ -11,7 +11,7 @@
 }
 
 #leftbg{
-    background: url('/matrimonio/public/images/left.png');
+    background: url('/public/images/left.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
@@ -23,7 +23,7 @@
 }
 
 #rightbg{
-    background: url('/matrimonio/public/images/right.png');
+    background: url('/public/images/right.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
@@ -66,10 +66,7 @@
     grid-template-columns: 2fr 1fr 2fr;
 }
 
-button{
-    opacity: 0.5!important;
-    cursor: not-allowed;
-}
+
 
 @media(min-width: 768px) {
     .wrapper{
