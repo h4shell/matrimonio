@@ -28,20 +28,20 @@
 <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="Partecipazione Online di Matrimonio Lorenzo Ginevra" />
 <meta itemprop="description" content="Ginevra e Lorenzo hanno il piacere di invitarvi al loro matrimonio" />
-<meta itemprop="image" content="https://www.bloglavalnerina.it/wp-content/uploads/2020/10/matrimonio-3.jpg" />
+<meta itemprop="image" content="https://matrimonio.bordighera.site/social.jpg" />
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://matrimonio.bordighera.site/" />
+<meta property="og:url" content="https://https://matrimonio.bordighera.site/" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Partecipazione Online di Matrimonio Lorenzo Ginevra" />
 <meta property="og:description" content="Ginevra e Lorenzo hanno il piacere di invitarvi al loro matrimonio" />
-<meta property="og:image" content="https://www.bloglavalnerina.it/wp-content/uploads/2020/10/matrimonio-3.jpg" />
+<meta property="og:image" content="https://matrimonio.bordighera.site/social.jpg" />
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Partecipazione Online di Matrimonio Lorenzo Ginevra" />
 <meta name="twitter:description" content="Ginevra e Lorenzo hanno il piacere di invitarvi al loro matrimonio" />
-<meta name="twitter:image" content="https://www.bloglavalnerina.it/wp-content/uploads/2020/10/matrimonio-3.jpg" />
+<meta name="twitter:image" content="https://matrimonio.bordighera.site/social.jpg" />
   </head>
   <body>
     <div id="leftbg"></div>
